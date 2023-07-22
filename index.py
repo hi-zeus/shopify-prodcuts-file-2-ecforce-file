@@ -41,7 +41,7 @@ with open('output.csv', 'w', newline='', encoding='utf-8') as newFile:
                 if row[47] == 'active':
                     status = 'active'
 
-                csv_writer.writerow([row[1], f"product-v-{prefix}{str(count)}", '',  f"product-v-{prefix}{str(count)}", '',0, status, selling,'','', row[20], row[20], '','','','','','','','','','','','','',
+                csv_writer.writerow([row[1], f"product-v-{prefix}{str(count)}", row[25],  f"product-v-{prefix}{str(count)}", '',0, status, selling,'','', row[20], row[20], '','','','','','','','','','','','','',
                                      '','','','','','','','',
                                     row[20],1,'','','','','',
                                     '','','','','','',
